@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: "Quicksand";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@font-face {
+  font-family: "AdessoFont";
+  src: url("/fonts/klavika-light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
