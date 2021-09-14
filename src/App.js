@@ -106,21 +106,21 @@ class App extends React.Component {
         <Slide backgroundColor="headSlide"><div className="head-slide"><HTMLAdvanced.NavigationHeading /></div></Slide>
         <Slide><HTMLAdvanced.NavigationBasics /></Slide>
         <Slide><HTMLAdvanced.NavigationMoreInfo /></Slide>
-        {/* <Slide><HTMLAdvanced.NavigationAufgabe /></Slide> */}
-        <Slide backgroundColor="headSlide"><div className="head-slide"><HTMLAdvanced.TableHeading /></div></Slide>
+        <Slide><HTMLAdvanced.NavigationAufgabe /></Slide>
+        {/* <Slide backgroundColor="headSlide"><div className="head-slide"><HTMLAdvanced.TableHeading /></div></Slide>
         <Slide><HTMLAdvanced.TableSkeleton /></Slide>
         <Slide><HTMLAdvanced.TableHead /></Slide>
         <Slide><HTMLAdvanced.TableBody /></Slide>
         <Slide><HTMLAdvanced.TableFooter /></Slide>
         <Slide><HTMLAdvanced.TableCSSProperties /></Slide>
-        <Slide><HTMLAdvanced.TableCSSProperties2 /></Slide>
-        <Slide backgroundColor="headSlide"><div className="head-slide"><HTMLAdvanced.FormHeading /></div></Slide>
+        <Slide><HTMLAdvanced.TableCSSProperties2 /></Slide> */}
+        {/* <Slide backgroundColor="headSlide"><div className="head-slide"><HTMLAdvanced.FormHeading /></div></Slide>
         <Slide><HTMLAdvanced.FormExample /></Slide>
         <Slide><HTMLAdvanced.FormLabel /></Slide>
         <Slide><HTMLAdvanced.FormStructure /></Slide>
         <Slide><HTMLAdvanced.FormValidation /></Slide>
         <Slide><HTMLAdvanced.FormCrossBrowser /></Slide>
-        <Slide><HTMLAdvanced.CheckboxForm /></Slide>
+        <Slide><HTMLAdvanced.CheckboxForm /></Slide> */}
         {/* <Slide><HTMLAdvanced.FormAufgabe /></Slide> */}
         {/** CSSIntro Section */}
         <Slide backgroundColor="headSlide"><div className="head-slide"><CSSIntro.Heading /></div></Slide>

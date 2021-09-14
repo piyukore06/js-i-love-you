@@ -1,11 +1,11 @@
 import React from 'react';
-import { Heading } from 'spectacle';
+import { Heading, Link } from 'spectacle';
 
 function SubHeading() {
   return (
     <div className="centered heading">
-      <Heading>JS I Love you</Heading>
-      {/* <Link style={{ textAlign: 'center' }} className="hori-centered" href="html-css-basics.surge.sh">html-css-basics.surge.sh</Link> */}
+      <Heading className="underline">JS I Love you</Heading>
+      <Link style={{ textAlign: 'center' }} className="hori-centered" href="https://js-i-love-you.netlify.app/">https://js-i-love-you.netlify.app/</Link>
     </div>
   );
 }
