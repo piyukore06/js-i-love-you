@@ -4,7 +4,7 @@ import { Heading } from 'spectacle';
 function SubHeading() {
   return (
     <div className="centered heading">
-      <Heading>Functions and Scope</Heading>
+      <Heading className="underline">Document Object Model (DOM)</Heading>
     </div>
   );
 }

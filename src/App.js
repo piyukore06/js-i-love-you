@@ -10,7 +10,8 @@ import CSSBasics from './7.CSS-Basics';
 import CSSAdvanced from './8.CSS-Advanced';
 import FlexBoxAndGrid from './9.FlexBoxAndGrid';
 import End from './10.End';
-import { JavaScript } from './10.JavaScript';
+import { JavaScript } from './11.JavaScript';
+import { DOMM } from './12.DOM';
 import htm from 'htm';
 import './App.css';
 
@@ -234,9 +235,12 @@ class App extends React.Component {
         <Slide><JavaScript.String /></Slide>
         <Slide><JavaScript.Boolean /></Slide>
         <Slide><JavaScript.Number /></Slide>
-        <Slide><JavaScript.ControlFlowandLoops /></Slide>
+        <Slide><JavaScript.ControlFlow /></Slide>
+        <Slide><JavaScript.ControlFlowAufgabe /></Slide>
+        <Slide><JavaScript.Loops /></Slide>
         <Slide><JavaScript.LoopExercise /></Slide>
-        <Slide><JavaScript.FunctionsAndScope /></Slide>
+        <Slide><JavaScript.Functions /></Slide>
+        <Slide><JavaScript.Scope /></Slide>
         <Slide><JavaScript.ScopeAufgabe /></Slide>
         <Slide><JavaScript.BuiltIns /></Slide>
         <Slide><JavaScript.Objects /></Slide>
@@ -247,10 +251,15 @@ class App extends React.Component {
         <Slide><JavaScript.ArraysMethods /></Slide>
         <Slide><JavaScript.ArraysLoop0 /></Slide>
         <Slide><JavaScript.ArraysLoop1 /></Slide>
+        <Slide><JavaScript.ArrayLoopAufgabe /></Slide>
         <Slide><JavaScript.ArrowFunction /></Slide>
         <Slide><JavaScript.BuiltInsAufgabe /></Slide>
-        <Slide backgroundColor="headSlide"><div className="head-slide"><JavaScript.ThankYou /></div></Slide>
-
+        {/* <Slide backgroundColor="headSlide"><div className="head-slide"><JavaScript.ThankYou /></div></Slide> */}
+        <Slide><DOMM.Heading /></Slide>
+        <Slide><DOMM.DOM /></Slide>
+        <Slide><DOMM.DocDateTypes /></Slide>
+        <Slide><DOMM.DocumentApis /></Slide>
+        <Slide><DOMM.DocumentAufgabe /></Slide>
       </Deck>
     );
   }

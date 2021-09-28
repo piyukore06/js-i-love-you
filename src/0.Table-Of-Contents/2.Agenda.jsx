@@ -10,7 +10,7 @@ function SubHeading() {
             <UnorderedList className="centered heading">
                 <ListItem>Introduction to HTML and CSS</ListItem>
                 <ListItem>Introduction to JavaScript</ListItem>
-                <ListItem>Routes</ListItem>
+                <ListItem>DOM and Routes</ListItem>
                 <ListItem>JavaScript Events</ListItem>
                 <ListItem>JavaScript Forms</ListItem>
                 <ListItem>Fetching Data</ListItem>
