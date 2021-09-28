@@ -260,6 +260,8 @@ class App extends React.Component {
         <Slide><DOMM.DocDateTypes /></Slide>
         <Slide><DOMM.DocumentApis /></Slide>
         <Slide><DOMM.DocumentAufgabe /></Slide>
+        <Slide><DOMM.Events /></Slide>
+        <Slide><DOMM.Listener /></Slide>
       </Deck>
     );
   }

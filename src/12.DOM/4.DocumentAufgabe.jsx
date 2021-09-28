@@ -6,7 +6,7 @@ function SubHeading() {
     <div className="centered heading">
       <Heading>Aufgabe</Heading>
       <OrderedList>
-        <ListItem>Ändern farbe des Elemente durch JavaScript</ListItem> 
+        <ListItem>Ändern farbe vom Elemente durch JavaScript</ListItem> 
         <ListItem>Class zu dem Element hinzufügen</ListItem>  
         <ListItem>Width von Elementliste ändern</ListItem>
       </OrderedList>
