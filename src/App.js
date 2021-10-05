@@ -238,7 +238,9 @@ class App extends React.Component {
         <Slide><JavaScript.ControlFlow /></Slide>
         <Slide><JavaScript.ControlFlowAufgabe /></Slide>
         <Slide><JavaScript.Loops /></Slide>
-        <Slide><JavaScript.LoopExercise /></Slide>
+        <Slide><JavaScript.LoopExercise0 /></Slide>
+        <Slide><JavaScript.LoopExercise1 /></Slide>
+        <Slide><JavaScript.LoopExercise2 /></Slide>
         <Slide><JavaScript.Functions /></Slide>
         <Slide><JavaScript.Scope /></Slide>
         <Slide><JavaScript.ScopeAufgabe /></Slide>
@@ -255,7 +257,7 @@ class App extends React.Component {
         <Slide><JavaScript.ArrowFunction /></Slide>
         <Slide><JavaScript.BuiltInsAufgabe /></Slide>
         {/* <Slide backgroundColor="headSlide"><div className="head-slide"><JavaScript.ThankYou /></div></Slide> */}
-        <Slide><DOMM.Heading /></Slide>
+        <Slide backgroundColor="headSlide"><div className="head-slide"><DOMM.Heading /></div></Slide>
         <Slide><DOMM.DOM /></Slide>
         <Slide><DOMM.DocDateTypes /></Slide>
         <Slide><DOMM.DocumentApis /></Slide>

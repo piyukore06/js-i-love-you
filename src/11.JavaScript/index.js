@@ -8,7 +8,9 @@ import Number from './6.Number';
 import ControlFlow from './7.1.0.ControlFlow';
 import ControlFlowAufgabe from './7.1.1.ControlFlowAufgabe';
 import Loops from './7.2.Loops';
-import LoopExercise from './8.LoopExercise';
+import LoopExercise0 from './8.0.LoopExercise';
+import LoopExercise1 from './8.1.LoopExercise';
+import LoopExercise2 from './8.2.LoopExercise';
 import Functions from './9.1.Functions';
 import Scope from './9.2.Scope';
 import ScopeAufgabe from './10.ScopeAufgabe';
@@ -37,7 +39,9 @@ export const JavaScript = {
     ControlFlow,
     ControlFlowAufgabe,
     Loops,
-    LoopExercise,
+    LoopExercise0,
+    LoopExercise1,
+    LoopExercise2,
     Functions,
     Scope,
     ScopeAufgabe,

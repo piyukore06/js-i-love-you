@@ -6,7 +6,7 @@ function SubHeading() {
   return (
     <div className="centered heading">
       <Heading>Aufgabe</Heading>
-      <Text>Schreiben Sie ein Programm, Durchschnitt von Elemente in der Array zu berechnen</Text>
+      <Text>Schreiben Sie eine Methode, Durchschnitt von Elemente in der Array zu berechnen</Text>
       <CodePane language="js" theme={lightTheme}>
           {`
 
