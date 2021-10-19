@@ -12,6 +12,7 @@ import FlexBoxAndGrid from './9.FlexBoxAndGrid';
 import End from './10.End';
 import { JavaScript } from './11.JavaScript';
 import { DOMM } from './12.DOM';
+import { Routes } from './13.Routes';
 import htm from 'htm';
 import './App.css';
 
@@ -272,6 +273,8 @@ class App extends React.Component {
         <Slide><DOMM.EventsAufgabe /></Slide>
         <Slide><DOMM.Listener /></Slide>
         <Slide><DOMM.ListenerAufgabe /></Slide>
+
+        <Slide><Routes.Heading /></Slide>
       </Deck>
     );
   }
