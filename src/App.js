@@ -1,5 +1,5 @@
 import React from 'react';
-import { Deck, Slide, FlexBox, Box, FullScreen } from 'spectacle';
+import { Deck, Slide, FlexBox, Box, FullScreen, Image } from 'spectacle';
 import Table from './0.Table-Of-Contents';
 import Intro from './1.Intro';
 import Browser from './2.Browser';
@@ -18,9 +18,14 @@ import './App.css';
 const html = htm.bind(React.createElement);
 
 const template = ({ slideNumber }) => {
+  console.log('slideNumber: ', slideNumber)
+  const img = slideNumber === 0 ? 'logo/adesso-logo.svg' : 'logo/adesso-logo-small.png';
+  const width = slideNumber === 0 ? '106' : '70';
+  const height = slideNumber === 0 ? '40' : '70';
   return html`
   <${FlexBox} justifyContent="space-between" position="fixed" right=${0}>
     <${Box} padding="1em">
+      <${Image} height="${height}px" width="${width}px" src="${img}" />
     </${Box}>
   </${FlexBox}>
   <${FlexBox} justifyContent="space-between" position="absolute" bottom=${0} width=${1}>
@@ -61,7 +66,7 @@ class App extends React.Component {
       <Deck transition={["zoom", "slide"]} template={template} theme={theme} transitionDuration={500}>
         
         {/** Table Section */}
-        <Slide backgroundColor="headSlide"><div className="head-slide"><Table.Heading /></div></Slide>
+        <Slide slideNumber="0" backgroundColor="headSlide"><div className="head-slide"><Table.Heading /></div></Slide>
         <Slide><Table.Intro /></Slide>
         <Slide backgroundColor="headSlide"><Table.Agenda /></Slide>
         {/** Intro Section */}
@@ -83,7 +88,7 @@ class App extends React.Component {
         <Slide><Browser.NothisIStimeless /></Slide>
         <Slide><Browser.TheresNoPerfectBrowser /></Slide>
         {/** HTMLBasics Section */}
-        <Slide backgroundColor="headSlide"><div className="head-slide"><HTMLBasics.Heading /></div></Slide>
+        <Slide slideNumber="100" backgroundColor="headSlide"><div className="head-slide"><HTMLBasics.Heading /></div></Slide>
         <Slide backgroundImage="url(frontend/html-1.png)" backgroundSize="65%" backgroundOpacity={0.9} textColor="white"><Intro.FunnyStart /></Slide>
         <Slide><HTMLBasics.Doctype /></Slide>
         <Slide><HTMLBasics.HTMLStructure /></Slide>
@@ -263,7 +268,10 @@ class App extends React.Component {
         <Slide><DOMM.DocumentApis /></Slide>
         <Slide><DOMM.DocumentAufgabe /></Slide>
         <Slide><DOMM.Events /></Slide>
+        <Slide><DOMM.EventsOverview /></Slide>
+        <Slide><DOMM.EventsAufgabe /></Slide>
         <Slide><DOMM.Listener /></Slide>
+        <Slide><DOMM.ListenerAufgabe /></Slide>
       </Deck>
     );
   }

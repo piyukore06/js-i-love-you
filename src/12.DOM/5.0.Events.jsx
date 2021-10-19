@@ -13,9 +13,18 @@ function SubHeading() {
             </CodePane>
             <CodePane language="js" theme={lightTheme}>
                 {`
-                 // On mouse-over, execute myFunction
+                 // Programatically induce click event
                  function myFunction() {
                    document.getElementById("myCheck").click();
+                 }
+                `}
+            </CodePane>
+            <CodePane language="js" theme={lightTheme}>
+                {`
+                 // On click, execute myFunction
+                 const element = document.getElementById("myCheck");
+                 element.onclick = () => {
+                  // 
                  }
                 `}
             </CodePane>
