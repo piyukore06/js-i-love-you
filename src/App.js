@@ -13,6 +13,7 @@ import End from './10.End';
 import { JavaScript } from './11.JavaScript';
 import { DOMM } from './12.DOM';
 import { Routes } from './13.Routes';
+import { Form } from './14.Forms';
 import htm from 'htm';
 import './App.css';
 
@@ -275,6 +276,23 @@ class App extends React.Component {
         <Slide><DOMM.ListenerAufgabe /></Slide>
 
         <Slide><Routes.Heading /></Slide>
+        <Slide><Routes.Aufgabe1 /></Slide>
+        <Slide><Routes.Aufgabe2 /></Slide>
+
+        <Slide backgroundColor="headSlide"><div className="head-slide"><Form.Heading0 /></div></Slide>
+        <Slide><Form.Heading1 /></Slide>
+        <Slide><Form.MadeUpOf /></Slide>
+        <Slide><Form.ActiveLearning /></Slide>
+        <Slide><Form.FieldSet /></Slide>
+        <Slide><Form.BasicFormControls /></Slide>
+        <Slide><Form.SelectControl /></Slide>
+        <Slide><Form.Mutlticontrol /></Slide>
+        <Slide><Form.AutocompleteBox /></Slide>
+        <Slide><Form.Styling /></Slide>
+        <Slide><Form.PseudoClass /></Slide>
+        <Slide><Form.Validation /></Slide>
+        <Slide><Form.AufgabeForm /></Slide>
+        <Slide><Form.AufgabeStyle /></Slide>
       </Deck>
     );
   }
