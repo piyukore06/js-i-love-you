@@ -14,6 +14,7 @@ import { JavaScript } from './11.JavaScript';
 import { DOMM } from './12.DOM';
 import { Routes } from './13.Routes';
 import { Form } from './14.Forms';
+import { Fetch } from './15.Fetch';
 import htm from 'htm';
 import './App.css';
 
@@ -293,6 +294,17 @@ class App extends React.Component {
         <Slide><Form.Validation /></Slide>
         <Slide><Form.AufgabeForm /></Slide>
         <Slide><Form.AufgabeStyle /></Slide>
+
+        <Slide backgroundColor="headSlide"><div className="head-slide"><Fetch.Heading /></div></Slide>
+        <Slide><Fetch.ClientServer /></Slide>
+        <Slide><Fetch.ClientServerCommunication /></Slide>
+        <Slide><Fetch.Apis /></Slide>
+        <Slide><Fetch.WeatherAPI /></Slide>
+        <Slide><Fetch.Ajax /></Slide>
+        <Slide><Fetch.XmlHttpRequest /></Slide>
+        <Slide><Fetch.XmlHttpResponse /></Slide>
+        <Slide><Fetch.XmlHttpResponseHandle /></Slide>
+        <Slide><Fetch.Aufgabe /></Slide>
       </Deck>
     );
   }
