@@ -7,6 +7,7 @@ import Ajax from './4.0.Ajax';
 import XmlHttpRequest from './5.0.XmlHttpRequest';
 import XmlHttpResponse from './5.1.XmlHttpResponse';
 import XmlHttpResponseHandle from './5.2.XmlHttpResponseHandle';
+import Fetch101 from './5.3.Fetch';
 import Aufgabe from './6.0.Aufgabe';
 
 export const Fetch = {
@@ -19,5 +20,6 @@ export const Fetch = {
     XmlHttpRequest,
     XmlHttpResponse,
     XmlHttpResponseHandle,
+    Fetch101,
     Aufgabe,
 }

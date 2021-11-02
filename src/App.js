@@ -304,6 +304,7 @@ class App extends React.Component {
         <Slide><Fetch.XmlHttpRequest /></Slide>
         <Slide><Fetch.XmlHttpResponse /></Slide>
         <Slide><Fetch.XmlHttpResponseHandle /></Slide>
+        <Slide><Fetch.Fetch101 /></Slide>
         <Slide><Fetch.Aufgabe /></Slide>
       </Deck>
     );

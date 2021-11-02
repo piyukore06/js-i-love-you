@@ -4,7 +4,7 @@ import { Heading, Text, UnorderedList, ListItem, Link } from 'spectacle';
 function SubHeading() {
   return (
     <div className="centered heading">
-      <Heading className="underline">Client Server Communication and HTTP</Heading>
+      <Heading fontSize="text" className="underline">Client Server Communication and HTTP</Heading>
       <Text>Hypertext Transfer Protocol (<Link href="https://developer.mozilla.org/en-US/docs/Web/HTTP">HTTP</Link>) is the protocol that web browsers and web servers use "under the hood" to communicate with each other over the Internet.</Text>
       <UnorderedList>
         <ListItem>
