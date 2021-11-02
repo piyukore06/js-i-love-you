@@ -44,7 +44,7 @@ export default SubHeading;
 // oReq.onload = reqListener;
 // oReq.onerror = reqError;
 // oReq.addEventListener("load", reqListener);
-// const API_KEY = '07ab104a1980fdc77491764f81e54a7b';
+// const API_KEY = '';
 // const city = 'Göppingen';
 // oReq.open("GET", `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`);
 // oReq.send();
